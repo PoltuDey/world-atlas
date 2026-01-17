@@ -1,0 +1,56 @@
+// ! https://restcountries.com/v3.1/name/chile?fullText=true&fields=name,population,region,subregion,capital,tld,currencies,languages,borders,flags
+// ! https://restcountries.com/v3.1/name/india?fullText=true&fields=name,population,region,subregion,capital,tld,currencies,languages,borders,flags
+
+[
+  {
+    "flags": {
+      "png": "https://flagcdn.com/w320/cl.png",
+      "svg": "https://flagcdn.com/cl.svg",
+      "alt": "The flag of Chile is composed of two equal horizontal bands of white and red, with a blue square of the same height as the white band superimposed in the canton. A white five-pointed star is centered in the blue square."
+    },
+    "name": {
+      "common": "Chile",
+      "official": "Republic of Chile",
+      "nativeName": {
+        "spa": { "official": "República de Chile", "common": "Chile" }
+      }
+    },
+    "tld": [".cl"],
+    "currencies": { "CLP": { "name": "Chilean peso", "symbol": "$" } },
+    "capital": ["Santiago"],
+    "region": "Americas",
+    "subregion": "South America",
+    "languages": { "spa": "Spanish" },
+    "borders": ["ARG", "BOL", "PER"],
+    "population": 19116209
+  }
+]
+
+
+
+[
+  {
+    "flags": {
+      "png": "https://flagcdn.com/w320/in.png",
+      "svg": "https://flagcdn.com/in.svg",
+      "alt": "The flag of India is composed of three equal horizontal bands of saffron, white and green. A navy blue wheel with twenty-four spokes — the Ashoka Chakra — is centered in the white band."
+    },
+    "name": {
+      "common": "India",
+      "official": "Republic of India",
+      "nativeName": {
+        "eng": { "official": "Republic of India", "common": "India" },
+        "hin": { "official": "भारत गणराज्य", "common": "भारत" },
+        "tam": { "official": "இந்தியக் குடியரசு", "common": "இந்தியா" }
+      }
+    },
+    "tld": [".in"],
+    "currencies": { "INR": { "name": "Indian rupee", "symbol": "₹" } },
+    "capital": ["New Delhi"],
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "languages": { "eng": "English", "hin": "Hindi", "tam": "Tamil" },
+    "borders": ["BGD", "BTN", "MMR", "CHN", "NPL", "PAK"],
+    "population": 1380004385
+  }
+]

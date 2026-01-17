@@ -1,0 +1,28 @@
+@media screen and (max-width: 768px) {
+  .web {
+    display: none;
+  }
+  .menu {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .mobile {
+    position: absolute;
+    top: 4rem;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px;
+  }
+  .mobile ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    & li:first-child {
+      margin-top: 1.2rem;
+    }
+    & li:last-child {
+      margin-bottom: 1.2rem;
+    }
+  }
+}
